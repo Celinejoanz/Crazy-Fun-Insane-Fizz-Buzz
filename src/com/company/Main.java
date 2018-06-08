@@ -33,6 +33,8 @@ public class Main {
                 output += "Buzz\n";
             } else if (i % 3 == 0) {
                 output += "Fizz\n";
+            } else if (i % 7 == 0) {
+                    output += i.toString() + " This number is a multiple of seven\n";
             } else output += i.toString() + "\n";
             //toString converts integer to string
         }
